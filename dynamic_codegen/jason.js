@@ -34,7 +34,7 @@ const protoLoaderArgs = {
 };
 
 const getClient = (index) => {
-  const PROTO_PATH = __dirname + "/../protos/helloworld.proto";
+  const PROTO_PATH = __dirname + "/../helloworld.proto";
 
   const packageDefinition = protoLoader.loadSync(PROTO_PATH, protoLoaderArgs);
 
